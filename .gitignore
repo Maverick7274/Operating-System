@@ -1,0 +1,33 @@
+# Ignore all files and directories that Git should ignore by default
+*
+!.gitignore
+
+# Ignore common files and directories
+.DS_Store
+Thumbs.db
+desktop.ini
+node_modules/
+*.log
+.env
+
+# Ignore build output
+/build
+/dist
+/out
+/.next
+
+# Ignore editor and IDE files
+.idea/
+.vscode/
+*.sublime*
+*.swp
+*.swo
+*.sublime*
+*.sublime-project
+*.sublime-workspace
+
+# Ignore OS-specific files
+._*
+.DS_Store?
+Icon?
+ehthumbs.db
