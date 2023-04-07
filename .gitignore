@@ -1,5 +1,5 @@
 # Ignore all files and directories that Git should ignore by default
-*
+
 !.gitignore
 
 # Ignore common files and directories
